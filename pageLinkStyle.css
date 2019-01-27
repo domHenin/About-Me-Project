@@ -1,0 +1,216 @@
+/*.fa {*/
+/*padding: 20px;*/
+/*font-size: 30px;*/
+/*width: 30px;*/
+/*text-align: center;*/
+/*text-decoration: none;*/
+/*border-radius: 50%;*/
+/*!* margin: 5px 2px; *!*/
+/*}*/
+/*.top_nav a {*/
+/*float: left;*/
+/*display: block;*/
+/*color: #000;*/
+/*text-align: center;*/
+/*padding: 14px 16px;*/
+/*text-decoration: none;*/
+/*}*/
+
+/*!* Social Media Icons *!*/
+/*.fa:hover { opacity: 0.7; }*/
+/*.fa-facebook { background: #3b5998; color: white; }*/
+/*.fa-linkedin { background: #007bb5; color: white; }*/
+/*.fa-instagram { background: #125688; color: white; }*/
+
+/*BELOW: attempt to rotateImage on "workPage"*/
+/*#rotateimg180 {*/
+/*-webkit-transform:rotate(180deg);*/
+/*-moz-transform: rotate(180deg);*/
+/*-ms-transform: rotate(180deg);*/
+/*-o-transform: rotate(180deg);*/
+/*transform: rotate(180deg);*/
+/*}*/
+
+
+
+body{
+    background: #444444;
+}
+
+
+
+/* Styles Hobbies Page */
+/* Hobbies Styles */
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top_nav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.top_nav a {
+    float: left;
+    display: block;
+    color: rgb(247, 71, 92); /*color: #000;*/
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#paraFontColor {
+    color: rgb(247, 81, 92);
+    font-size: 28px;
+    font-family: 'Arvo', serif;
+}
+
+/*<<<<END OF GROUP>>>>*/
+
+
+/*NOT SURE WHY I NEED ALL THE .w3-paddings below, have commented out for now*/
+/*.w3-padding-64{padding-top:64px!important;padding-bottom:64px!important}*/
+/*.w3-center .w3-bar{display:inline-block;width:auto}*/
+/*.w3-center .w3-bar-item{text-align:center}.w3-block{display:block;width:100%}*/
+
+/* Styles Header Links */
+a#topHomeStyle {
+    color: rgb(247, 71, 92);
+}
+a#topFamilyStyle {
+    color: rgb(247, 71, 92);
+}
+
+a#topJobStyle {
+    color: rgb(247, 71, 92);
+}
+
+a#topSchoolStyle {
+    color: rgb(247, 71, 92)
+}
+
+a#topFamilyStyle {
+    color: rgb(247, 71, 92);
+}
+
+#topHobbiesStyle {
+    color: rgb(247, 71, 92);
+}
+/*<<<<END OF GROUP>>>>*/
+
+/* Styles Header */
+.headerColor {
+    color: rgb(247, 71, 92);
+}
+
+
+
+/* tableCenter > Styles Header*/
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*<<<<END OF GROUP>>>>*/
+
+/* List of Hobbies Text Align */
+.listHob {
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 250%;
+}
+
+.top_nav a:hover {
+    background-color: #ddd /*change to the grey on the home page*/
+    /* color: black; */
+}
+
+.content {
+    background-color: #ddd;
+    padding: 10px;
+}
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+
+/*<<<<END OF GROUP>>>>*/
+
+
+/*Styling Photos on subPages*/
+.container{
+    position: relative;
+    width: 50%;
+}
+
+.image{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 15%;
+    border-radius: 25%;
+    float: left;
+}
+
+
+
+.text{
+    background-color: rgb(247, 71, 92);
+    color: #2a2a2a;
+    font-size: 16px;
+    padding: 16px 32px;
+
+}
+
+/*<<<<END OF GROUP>>>>*/
+
+/* Styles Family Page lines 722-? */
+.headerOne {
+    text-align: center;
+    color: rgb(247, 71, 92);
+    font-family: 'Staatliches', cursive;
+}
+
+.headerFontChange{
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    font-size: 40px;
+}
+
+#famInfo {
+    word-wrap: initial;
+}
+/* finished here */
+/* next is adding same style as "Hobbies" page */
+
+
+/* having trouble rotating the photos for school and work
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Scaling_background_images */
+/* Styles School Page lines 337-? */
+#schoolPhotoOne {
+    border-style: none;
+    width: 20%;
+    height: auto;
+}
+/*END OF GROUP*/
+
+/* Styles Work Page lines 344-? */
+#workPhoto {
+    border-style: none;
+    width: 20%;
+}
+
+
+
+/*<<<<END OF GROUP>>>>*/
+
+
+/*Styles Job Page lines 211-?*/
+#paraFontColor {
+    color: rgb(247, 81, 92);
+    font-size: 28px;
+    font-family: 'Arvo', serif;
+}
